@@ -1,0 +1,1 @@
+{"version":"1.0.0","enabled":true,"name":"Check frontend syntax","description":"Validate browser and extension JavaScript after edits.","when":{"type":"fileEdited","patterns":["web/*.js","extension/*.js"]},"then":{"type":"runCommand","command":"node --check web/app.js && node --check extension/popup.js","timeout":30}}

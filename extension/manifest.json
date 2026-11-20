@@ -1,0 +1,8 @@
+{
+  "manifest_version": 3,
+  "name": "Tombstone — Restore this page",
+  "version": "1.0.0",
+  "description": "Open a page URL in Tombstone for review and restoration.",
+  "permissions": ["activeTab"],
+  "action": {"default_popup": "popup.html"}
+}

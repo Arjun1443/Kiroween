@@ -1,0 +1,1 @@
+{"version":"1.0.0","enabled":true,"name":"Check backend","description":"Run deterministic unit and API integration tests after Python edits.","when":{"type":"fileEdited","patterns":["*.py","tests/*.py"]},"then":{"type":"runCommand","command":"python -m unittest discover -s tests -v","timeout":30}}

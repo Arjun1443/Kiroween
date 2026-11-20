@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Tombstone — The Web Archive Desk</title><link rel="stylesheet" href="/style.css"><script defer src="/app.js"></script></head>
+<body><a class="skip" href="#main">Skip to content</a>
+<header><a href="/" class="brand"><span aria-hidden="true">✦</span> Tombstone</a><nav aria-label="Main navigation"><a href="#restore">Restore</a><a href="#library">Library <span id="count">0</span></a></nav></header>
+<main id="main"><section class="hero" id="restore"><div class="eyebrow"><span></span> THE WEB ARCHIVE DESK</div><h1>Bring dead links<br><em>back to life.</em></h1><p>Recover vanished articles, trace their archived sources, and build a searchable research library.</p></section>
+<section class="desk" aria-labelledby="desk-title"><div class="desk-top"><h2 id="desk-title">Restore a link</h2><button id="demo" class="secondary" type="button">Try sample ↗</button></div>
+<form id="restore-form"><label for="urls">Page URLs</label><textarea id="urls" rows="3" placeholder="https://example.com/lost-article" required aria-describedby="hint"></textarea><div class="actions"><button class="primary" type="submit">Search archives <span aria-hidden="true">→</span></button><label class="import">Import bookmarks <input id="import" type="file" accept=".html,.htm,.txt,.csv"></label></div><p class="hint" id="hint">Up to 5 URLs, one per line. Live searches send URLs to the Internet Archive.</p></form>
+<p role="status" id="status"></p><div id="results"></div></section>
+<section id="library" class="library" aria-labelledby="library-title"><div class="desk-top"><div><div class="eyebrow">SAVED ON THIS DEVICE</div><h2 id="library-title">Your library</h2></div><button class="secondary" id="export" type="button">Export Markdown ↓</button></div><label for="search">Search saved cards</label><input id="search" type="search" placeholder="Search titles, domains, or evidence"><p role="status" id="library-status"></p><div id="cards"></div></section>
+</main><footer>Tombstone · A research desk for the disappearing web</footer></body></html>
